@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/she_xitong"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/y_fanhui"
+            android:layout_width="30dp"
+            android:layout_height="23dp"
+            android:textColor="#232323"
+            android:src="@drawable/yff"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:layout_alignBottom="@+id/y_tv_shezhi"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textColor="#616161"
+            android:textSize="18sp"
+            android:id="@+id/y_tv_shezhi"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F4F5F6"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#F4F5F6"/>
+
+    <RelativeLayout
+        android:id="@+id/she_huancun"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:background="@drawable/click_down"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清除缓存"
+            android:layout_marginLeft="18dp"
+            android:textColor="#232323"
+            android:id="@+id/y_q"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/tv_y_qingchuhuancun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/y_q"
+            android:layout_marginRight="15dp"
+            android:text="7.67MB"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e8e8e8"
+        android:layout_marginLeft="17dp"/>
+    <RelativeLayout
+        android:clickable="true"
+        android:background="@drawable/click_down"
+        android:id="@+id/she_ziti"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="字体大小"
+            android:layout_marginLeft="18dp"
+            android:textColor="#232323"
+            android:id="@+id/y_z"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/tv_y_ziti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/y_z"
+            android:layout_marginRight="15dp"
+            android:text="中"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e8e8e8"
+        android:layout_marginLeft="17dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/she_liebiaozhaoy"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:background="@drawable/click_down"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="列表显示摘要"
+            android:layout_marginLeft="18dp"
+            android:textColor="#232323"
+            android:id="@+id/y_liebiao"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/tv_y_liebiaoz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/y_liebiao"
+            android:layout_marginRight="15dp"
+            android:text="7.67MB"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e8e8e8"
+        android:layout_marginLeft="17dp"/>
+    <RelativeLayout
+        android:id="@+id/she_feiwill"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:background="@drawable/click_down"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="非WiFi网络流量"
+            android:layout_marginLeft="18dp"
+            android:textColor="#232323"
+            android:id="@+id/y_fwll"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/tv_y_feiwll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/y_fwll"
+            android:layout_marginRight="15dp"
+            android:text="及省流量(不下载图)"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e8e8e8"
+        android:layout_marginLeft="17dp"/>
+    <RelativeLayout
+        android:id="@+id/she_feiwfbftx"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:background="@drawable/click_down"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="非WiFi网络播放提醒"
+            android:layout_marginLeft="18dp"
+            android:textColor="#232323"
+            android:id="@+id/y_fwbftx"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/tv_y_feiwbftx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/y_fwbftx"
+            android:layout_marginRight="15dp"
+            android:text="提醒一次"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e8e8e8"
+        android:layout_marginLeft="17dp"/>
+    <RelativeLayout
+        android:id="@+id/she_tstz"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:background="@drawable/click_down"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="推送通知"
+            android:layout_marginLeft="18dp"
+            android:textColor="#232323"
+            android:id="@+id/y_ts"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/tv_y_tstz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F4F5F6"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F4F5F6"
+        android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+        android:id="@+id/she_lxxz"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:background="@drawable/click_down"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="离线下载"
+            android:layout_marginLeft="18dp"
+            android:textColor="#232323"
+            android:id="@+id/y_lxxz"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ccjjjj"
+            android:textColor="#232323"
+            android:id="@+id/y_lixianxiazai_iv"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:paddingLeft="0dp"
+            android:layout_alignBottom="@+id/y_lxxz"
+            android:layout_alignTop="@+id/y_lxxz" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e8e8e8"
+        android:layout_marginLeft="17dp"/>
+    <RelativeLayout
+        android:id="@+id/she_jcbb"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:background="@drawable/click_down"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="检查版本"
+            android:layout_marginLeft="18dp"
+            android:textColor="#232323"
+            android:id="@+id/y_jcbb"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/tv_y_jcbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/y_jcbb"
+            android:layout_marginRight="15dp"
+            android:text="6.3.2"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F4F5F6"/>
+
+    <ImageView
+        android:id="@+id/banben"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/banben_06"
+        android:paddingBottom="25dp"/>
+
+</LinearLayout>

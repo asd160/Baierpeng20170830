@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--自己的大控件-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <HorizontalScrollView
+        android:id="@+id/horziontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scrollbars="none"
+        android:layout_toLeftOf="@+id/pindao"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/layout_munu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"></LinearLayout>
+    </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/pindao"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/jiahao"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:background="#20999999"
+            android:paddingTop="-5dp"
+            />
+
+    </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+</LinearLayout>

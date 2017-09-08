@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.riko8_30.GengLoginActivity"
+    android:orientation="vertical"
+    android:background="#FAFAFA">
+
+    <ImageView
+        android:id="@+id/g_f_x"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/xxx_03"
+        android:paddingLeft="300dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="登录你的头条,精彩用不丢失"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:paddingTop="20dp"
+        android:textColor="#232323"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+        <EditText
+            android:id="@+id/logon_phone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/loginbg"
+            android:hint="请输入手机号码"
+            android:paddingLeft="30dp"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/tv_fasong_phone"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="发送验证码"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:paddingRight="10dp"/>
+        <TextView
+            android:id="@+id/tvgangg"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/tv_fasong_phone"
+            android:layout_toStartOf="@+id/tv_fasong_phone"
+            android:text="|"
+            android:textSize="15sp"
+            android:gravity="center"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+        <EditText
+            android:id="@+id/logon_yanzheng"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/loginbg"
+            android:hint="请输入验证码"
+            android:paddingLeft="30dp"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/weizhuce_sheng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未注册手机验证后自动登录"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <Button
+        android:id="@+id/btn_jinrutoutiao"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="进入头条"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:background="@drawable/logon_btn"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <CheckBox
+            android:id="@+id/ck_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#555555"
+            android:text="我已阅读并同意用户协议和隐私条款"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ceshi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="账号密码登录"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#3A6096"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:src="@drawable/m_g_03"
+        android:layout_marginTop="80dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+
+        <ImageView
+            android:id="@+id/g_iv_weixin"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingRight="5dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/geng_login_weixin"/>
+        <ImageView
+            android:paddingRight="5dp"
+            android:id="@+id/g_iv_qq"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/geng_login_qq"/>
+        <ImageView
+            android:paddingRight="5dp"
+            android:id="@+id/g_iv_xinlang"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/geng_login_xinlang"/>
+        <ImageView
+            android:paddingRight="5dp"
+            android:id="@+id/g_iv_tianyi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/geng_login_tianyi"/>
+        <ImageView
+            android:id="@+id/g_iv_youxiang"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/geng_login_youxiang"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

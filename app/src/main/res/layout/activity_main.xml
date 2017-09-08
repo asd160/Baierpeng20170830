@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bwie.riko8_30.MainActivity"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/title_actionbar"
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<com.bwie.riko8_30.myview.HorizontalScollTabhost
+    android:id="@+id/hsm_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></com.bwie.riko8_30.myview.HorizontalScollTabhost>
+
+
+</LinearLayout>

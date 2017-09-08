@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ff4444">
+
+        <ImageView
+            android:id="@+id/tou_iv_user"
+            android:src="@drawable/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tou_tv_jinri"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/tou_tv_jinri" />
+
+        <TextView
+            android:id="@+id/tou_tv_jinri"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="今日头条"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/tou_iv_shezhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="57dp"
+            android:src="@drawable/shezhi"
+            android:layout_alignBottom="@+id/tou_tv_jinri" />
+    </RelativeLayout>
+</LinearLayout>

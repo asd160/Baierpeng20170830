@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="hortext">#7F7F7F</color>
+    <color name="selecthortext" >#f00</color>
+
+
+    <color name="click_down_bg">#10000000</color>
+    <color name="click_bg">#ffffff</color>
+    <color name="switch_ts">#666666</color>
+
+</resources>

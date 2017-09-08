@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HorizontalScollTabhost">
+        
+        <attr name="top_background" format="color"/>
+
+        <attr name="text_color_nomal" format="color"/>
+        <attr name="text_color_select" format="color"/>
+
+        <attr name="bottom_line" format="reference"/>
+        
+    </declare-styleable>
+    
+</resources>
